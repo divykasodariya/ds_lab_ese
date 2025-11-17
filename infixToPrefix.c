@@ -82,7 +82,7 @@ int main()
         printf("%c current read \n",exp[i]);
         if (exp[i] == '(')
         {
-        printf("popping until ( is found \n");
+        printf("popping until ) is found \n");
 
             char m = pop(stack);
             while (m != ')' && isEmpty() != 1)
